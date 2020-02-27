@@ -6,6 +6,7 @@
       <img class="logo" src="/img/logo.svg">
       <span class="nav-group optional">
         <a class="nav-item" href="/">Home</a>
+        <a class="nav-item" href="#sec-map">Map</a>
         <a class="nav-item" href="#sec-schedule">Schedule</a>
         {{ if .Site.Data.toggles.challenges }}<a class="nav-item" href="#sec-challenges">Challenges</a>{{ end }}
         <a class="nav-item" href="#sec-emergency">Emergency</a>
@@ -22,6 +23,15 @@
       <a href="{{ .Site.Data.guide.slack }}" class="button">Join Slack</a>
       <a href="{{ .Site.Data.guide.devpost }}" class="button subtle">Visit DevPost</a>
       <a href="{{ .Site.Data.guide.facebook }}" class="button subtle" style="margin-top: 0">Get Updates on Facebook</a>
+    </div>
+  </div>
+  
+  <!-- Map -->
+  <div id="sec-map" class="section">
+    <h1>Map</h1>
+    <div class="schedule">
+      </br>
+      <iframe src="https://www.google.com/maps/d/embed?mid=1d7RMiPV8TXjTMStyqzGOGYnKe06xOS8g&hl=en" width="200%" height="480"></iframe>
     </div>
   </div>
 
