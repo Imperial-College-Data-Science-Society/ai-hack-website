@@ -1,7 +1,7 @@
 # Use these to toggle sections
 faq: true
 sponsors: true
-challenges: false
+challenges: true
 judges: true
 applications:
   open: false
